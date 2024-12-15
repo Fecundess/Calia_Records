@@ -1,5 +1,83 @@
 @import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
 
+@media (max-width: 600px) {
+    .container_principal {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+        display: inline-block;
+        flex-direction: row;
+        justify-content: end;
+        
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    .Apresentação {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    .paragrafo_titulo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 0%;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    .Apresentação-subtitulo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    #video-resposivo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+@media (max-width: 600px) {
+    .subtitulo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 5px; /* Reduz o tamanho da fonte */
+        padding: 1px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
 * {
   margin: 0px;
 }
@@ -22,13 +100,13 @@ header {
   font-style: italic;
 }
 
-.container-principal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 30px;
-  align-items: center;
-  padding: 30px;
+.container_principal {
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+    padding: 10px;
 }
 .container-principal h3:hover {
   color: gold;
